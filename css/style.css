@@ -1,0 +1,426 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 5;
+}
+.my-color{
+    color: #17B794 !important;
+}
+.my-background-color{
+    background-color: #17B794 !important;
+}
+.color-white{
+    color: #fff !important;
+}
+.w-60{
+    width: 60%;
+}
+@media (max-width: 768px) {
+ h2{
+    font-size: 1.8rem !important;
+    width: 100% !important;
+}
+}
+
+/* Header Section ---------------------------------------------------- header */
+.header{
+    height: 920px;
+    background-image: url(/images/img_bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header .overlay{
+    background: rgba(29, 43, 83, 0.89);
+}
+.head-content{
+    height: 700px;
+}
+.header h1{
+    font-size: 3.5rem;
+}
+.header .head-content p{
+    font-size: 1.5rem;
+}
+.header .head-content button{
+    font-size: 1.15rem;
+}
+
+.nav-fo-color{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+.short-contact .phone-number{
+    font-size: small;
+}
+.navbar-nav{
+    font-size: 1.05rem;
+}
+.navbar-toggler{
+    background-color: #17B794 !important;
+    font-size: small;
+}
+.nav-item a:hover{
+    color: #fff !important;
+}
+.phone-number:hover.phone-number .nav-link span,
+.phone-number:hover.phone-number .nav-link i,
+.nav-icon:hover.nav-icon .nav-link i
+{
+    color: #fff !important;
+}
+.dropdown-menu a{
+    color: #aaa !important;
+}
+.dropdown-menu a:hover{
+    color: #555 !important;
+}
+
+@media (max-width: 767.98px) {
+    .header{
+        height: 600px;
+    }
+    .head-content{
+        align-items: flex-start !important;
+        margin-top: 5rem;
+    }
+    .header h1{
+        font-size: 2.2rem;
+    }
+    .header .head-content p{
+        font-size: 1.3rem;
+    }
+}
+
+/* Head-final-part Section ------------------------------------------- Head Cards */
+.head-final-part{
+    height: 430px !important;
+}
+
+@media (max-width: 768px) {
+    .head-final-part{
+        height: 1250px !important;
+    }
+}
+
+.head-cards{
+    width: 100%;
+    top: -50%;
+    left: 0;
+}
+.head-cards .middle-card{
+    z-index: 1;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+}
+.icon-cont{
+    height: 80px;
+}
+.icon-circle{
+    background: #13977a;
+    color: #f1f1f1;
+    width: 80px;
+    height: 80px;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icon-circle i{
+    font-size: 2.4rem;
+}
+
+@media (max-width: 768px) {
+    .head-cards{
+        top: -10%;
+    }
+}
+
+/* Features Section  ------------------------------------------------- Features  */
+.features h2,
+.Our-Work h2,
+.fun-facts h2,
+.products h2,
+.subscribe h2{
+    width: 30rem;
+    font-size: 2.5rem;
+    position: relative;
+}
+.features h2::after,
+.Our-Work h2::after,
+.fun-facts h2::after,
+.products h2::after,
+.subscribe h2::after{
+    content:"";
+    position: absolute;
+    width: 16%;
+    height: 2px;
+    background-color: #13977a;
+    top: 100%;
+    left: 42%;
+}
+.features > p,
+.Our-Work > p,
+.fun-facts > p,
+.products > p, 
+.subscribe > p{
+    font-size: 1.5rem;
+}
+.feature-element .icon,
+.fun-facts .icon{
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+}
+.features h2{
+    margin-top: 50px !important;
+}
+@media (max-width: 992px) {
+    .features > p,
+    .Our-Work > p,
+    .fun-facts > p,
+    .products > p, 
+    .subscribe > p{
+        font-size: 1.4rem;
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .features > p,
+    .Our-Work > p,
+    .fun-facts > p,
+    .products > p, 
+    .subscribe > p{
+        font-size: 1.3rem;
+        width: 95%;
+    }
+}
+
+/* Our-Work Section  ------------------------------------------------- Our-Work */
+.Our-Work{
+    background: #303841;    
+}
+.Our-Work > p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.our-work-item{
+    height: 400px;
+    transition: all 0.25s ease;
+}
+.our-work-item:hover{
+    cursor: pointer !important;
+    box-shadow: 1px 1px 20px 0px #222;
+}
+.our-work-item .data h6{
+    color: #bbb;
+}
+.color1{
+    background-color: rgb(80, 84, 90) !important;
+}
+.color2{
+    background-color: rgb(26, 159, 192) !important;
+}
+.color3{
+    background-color: rgb(231, 204, 223) !important;
+}
+.color4{
+    background-color: rgb(112, 39, 34) !important;
+}
+.color5{
+    background-color: rgb(179, 77, 51) !important;
+}
+.color6{
+    background-color: rgb(126, 157, 204) !important;
+}
+
+/* Fun Facts Section  ------------------------------------------------  Fun Facts */
+.fun-facts-icon{
+    color: #ccc;
+    font-size: 2.5rem;
+}
+.fun-facts .fun-facts-element h5{
+    font-size: 3rem;
+    color: #17B794;
+}
+.fun-facts .fun-facts-element p{
+    color: #888;
+}
+
+/* Products Section  -------------------------------------------------  Products */
+.products{
+    height: 500px;
+    background-color: #efefef;
+}
+
+/* Subscribe Section  ------------------------------------------------ Subscribe */
+.subscribe{
+    background-color: #303841;
+}
+.subscribe > p{
+    color: #888 !important;
+}
+
+.subscribe form input{
+    border:2px solid rgb(119, 119, 119, 0.6) !important;
+    font-size: 1.1rem;
+}
+.form-button{
+    background-color: #17B794;
+    font-size: 1.2rem;
+    border:none !important;
+    padding: 12px 0;
+}
+
+/* First-Footer Section   --------------------------------------------  First-Footer */
+.first-footer h4,
+.contact-form h4{
+    font-size: 1.3rem !important;
+}
+.first-footer ul li,
+.contact-form .contact-info ul li{
+    margin: 12px 0;
+    font-size: 1.05rem;
+}
+.first-footer ul li a,
+.contact-form .contact-info ul li a{
+    color: #13977a !important;
+}
+.first-footer ul li a:hover,
+.contact-form .contact-info ul li a:hover{
+    text-decoration: none;
+}
+.first-footer ul li a i{
+    padding-right: 10px;
+    color: #17B794 !important;
+}
+.first-footer .about-us p,
+.contact-form .contact-info .about-us p{
+    color: #777;
+}
+
+/* Foooooter Section -------------------------------------------------  Foooooter */
+footer .footer-content p{
+    font-size: .9rem;
+    margin: 5px;
+    color: #888;
+}
+footer .footer-content span a{
+    color: #17B794;
+}
+footer .footer-content span a:hover{
+    text-decoration: none;
+}
+footer .footer-content ul li,
+.team-contacts li{
+    float: left;
+    margin: 0 12px;
+}
+footer .footer-content ul li i, 
+.team-contacts li i{
+    font-size: 1.3rem;
+    color: #17B794;
+}
+
+
+
+/* ==========                        About Page                      ==================
+ ====================================================================================== */
+
+ .about-header,
+ .contact-header,
+ .portfolio-header,
+ .services-header{
+     height: 500px;
+ }
+ .about-header .head-content,
+ .contact-header .head-content,
+ .portfolio-header .head-content,
+ .services-header .head-content{
+     height: 300px;
+ }
+
+ /* History Section  ------------------------------------ History */
+ .history .discription p{
+     font-size: 1.2rem;
+     color: #555;
+ }
+ .history .carousel-indicators li{
+     width: 12px;
+     height: 12px;
+     border-radius: 50%;
+     margin: 7px;
+ }
+
+ /* MEET THE TEAM Section  -------------------------- MEET THE TEAM */
+ .meet-team .icon{
+    width: 100px;
+    height: 100px;
+ }
+ .meet-team  h6{
+     color: #ccc;
+ }
+
+
+ /* ==========                        Contact Page                      ==================
+ ====================================================================================== */
+
+.contact-form .contact-info ul li{
+    margin: 35px 0;
+    font-size: 1.05rem;
+}
+.contact-form .contact-info ul li a i,
+.contact-form .contact-info ul li p i{
+    padding-right: 25px;
+    color: #ccc !important;
+    font-size: 20px;
+}
+.contact-form .contact-info ul li p{
+    color: #888;
+}
+.contact-form form input,
+.contact-form form textarea{
+    border: 2px solid #ddd;
+}
+.contact-form form textarea{
+    width: 100%;
+}
+.contact-form button{
+    background-color: #17B794;
+    font-size: 1.2rem;
+    border:none !important;
+    color: #fff;
+}
+@media (max-width: 992px) {
+    .contact-form form{
+        margin-bottom: 0 !important;
+    }
+    .contact-form .contact-info{
+        margin: 50px 0  150px !important;
+        padding: 0 !important;
+    }    
+}
+
+
+ /* ==========                        Portfolio Page                      ==================
+ ====================================================================================== */
+.portfolio{
+    background-color: transparent;
+}
+.portfolio button{
+    background-color: #17B794;
+    font-size: 1rem;
+    padding: 20px 60px !important;
+    color: #fff;
+}
+
+
+/* ==========                        Services Page                      ==================
+ ====================================================================================== */
+.offer .offer-element h5{
+    color: #666;
+}
+.offer .offer-element p{
+    font-size: 1.2rem;
+}
+.offer .offer-element .icon{
+    font-size: 2.3rem;
+}
+
+
+/* ==========                        More Services Page                      ==================
+ ====================================================================================== */
